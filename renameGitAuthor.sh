@@ -17,3 +17,7 @@ then
                     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
                 fi
                 ' --tag-name-filter cat -- --branches --tags
+
+# Be sure to run:
+# git push --force --tags origin HEAD:master
+# (or wherever your branch is going)
